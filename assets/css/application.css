@@ -1,0 +1,176 @@
+body {
+	padding: 50px 5px 30px 5px;
+}
+.col-md{
+	padding: 20px;
+	text-align: right;
+}
+
+.border {
+	border : 1px solid;
+}
+
+.house-container {
+	position:relative;
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+.house{
+	position: absolute;
+	z-index: 1;
+}
+.bedroom, .bathroom, .living-room , .living-room-2, .kitchen{
+	background: #000;
+}
+
+
+.house-interior {
+	position: absolute;
+	z-index: 0;
+	height: 503px;
+	width: 600px;
+	display: none;
+	background: url("../../assets/imgs/interior.png") no-repeat center center;
+}
+
+.house img {
+	width: 500px;
+}
+
+.attic-left{
+	top: 27px;
+	left: 35px;
+	position: absolute;
+}
+.attic-right{
+	top: 33px;
+	right: 12px;
+	position: absolute;
+}
+
+.bedroom, .bathroom, .kitchen, .living-room, .living-room-2 {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+}
+.bedroom {
+	right: 13px;
+	top: 155px;
+	width: 199px;
+	height: 112px;
+}
+.bathroom {
+	right: 219px;
+	top: 154px;
+	width: 162px;
+	height: 112px;
+}
+.kitchen {
+	left: 13px;
+	top: 274px;
+	width: 290px;
+	height: 111px;
+}
+
+.living-room {
+	left: 12px;
+	top: 155px;
+	width: 199px;
+	height: 111px;
+}
+
+.living-room-2{
+	right: 13px;
+	top: 274px;
+	width: 277px;
+	height: 110px;
+}
+
+.info{
+	display: none;
+}
+
+#enter{
+	font-size: 60px;
+	position: absolute;
+	display: none;
+	top: 209px;
+	text-decoration: none;
+	left: 178px;
+	z-index: 10;
+} 
+
+.window-wrapper {
+	position : relative;
+	height: inherit;
+	width: inherit;
+	display: table;
+}
+
+
+.bedroom .window-wrapper img, .living-room .window-wrapper img, .kitchen .window-wrapper img, .living-room-2 .window-wrapper img, .bathroom .window-wrapper img{
+	width: inherit;
+	height: inherit;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 1;
+}
+
+.table-row{
+	display: table-cell;
+	vertical-align: middle;
+	position: relative;
+}
+
+.table-row  label{
+	position: inherit;
+	z-index: 0;
+	color: #fff;
+}
+
+#myDiv{
+}
+
+
+/* General Styles */
+*{ padding:0px; margin:0px; }
+a:focus, a:active{ outline:none; }
+
+/* Picture Styles */
+#picture{ position:relative; top:20px; width:700px; height:466px; margin:0px auto; overflow:hidden; }
+#picture #pic-background {position: absolute; z-index: 0; left: 0; top: 0; width: 700px;}
+	/* General More Button */		
+	.more{ position:absolute; width:50px; height:50px; background:url("../../assets/imgs/dim.png"); text-align:left; overflow:hidden; }
+	
+	.more span{ position:absolute; left:60px; width:160px; padding:15px 0 0 5px; color:#FFF; font:bold 13px Lucida Grande, Arial, sans-serif; text-shadow:#000 1px 1px 0px; }
+	
+	/* Item Specific More Button */
+	#couch{ top:240px; left:75px;}
+	#plant{ top:180px; left:370px; }
+	#monitor{ top:335px; left:390px; }
+	#board{ top:50px; left:450px; }
+	
+	/* General Info Box */
+	#infobox{ 
+		position:absolute; 
+		bottom:-200px; 
+		left: 350px; 
+		height:200px; 
+		width:300px; 
+		z-index:20; 
+		margin:0 0 -100px -150px; 
+		background:#FFF; 
+		-webkit-border-radius:5px; 
+		-moz-border-radius:5px; 
+		border-radius:5px; 
+	}
+	#infobox a, #infobox a:visited{ font:italic 16px Georgia, serif; color:#555; text-decoration:none; }
+	#infobox a:hover{ text-decoration:underline; }
+		
+		/* Close button for info box */
+		span.close{position:absolute; right:5px; top:5px;}
+	
+	/* The dimmed background when the info box is showing */	
+	#fade_bg{ position:absolute; z-index:15; width:100%; height:100%; background:url("../../assets/imgs/dim.png"); display:none;}
