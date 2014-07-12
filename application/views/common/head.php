@@ -12,14 +12,14 @@
 		<!-- Bootstrap core CSS -->
 		<link href="<?php echo base_url("assets/css/bootstrap.min.css"); ?>" rel="stylesheet">
 		<link href="<?php echo base_url("assets/css/application.css"); ?>" rel="stylesheet">
-		<script src="<?php echo base_url('assets/development-bundle/jquery-1.10.2.js') ?>"></script>
-		
+		<script src="<?php echo base_url('assets/js/jquery-1.10.2.js') ?>"></script>
+
 		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!--[if lt IE 9]>
 			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 		<![endif]-->
-		
+
 		<script src="<?php echo base_url("assets/js/bootstrap.min.js"); ?>"></script>
 		<script src="<?php echo base_url('assets/js/application.js') ?>"></script>
 		</head>

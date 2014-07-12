@@ -99,7 +99,7 @@ body {
 	text-decoration: none;
 	left: 178px;
 	z-index: 10;
-} 
+}
 
 .window-wrapper {
 	position : relative;
@@ -140,37 +140,37 @@ a:focus, a:active{ outline:none; }
 
 /* Picture Styles */
 #picture{ position:relative; top:20px; width:700px; height:466px; margin:0px auto; overflow:hidden; }
-#picture #pic-background {position: absolute; z-index: 0; left: 0; top: 0; width: 700px;}
-	/* General More Button */		
+#picture #pic-background {position: absolute; z-index: 0; left: 0; top: 0;}
+	/* General More Button */
 	.more{ position:absolute; width:50px; height:50px; background:url("../../assets/imgs/dim.png"); text-align:left; overflow:hidden; }
-	
+
 	.more span{ position:absolute; left:60px; width:160px; padding:15px 0 0 5px; color:#FFF; font:bold 13px Lucida Grande, Arial, sans-serif; text-shadow:#000 1px 1px 0px; }
-	
+
 	/* Item Specific More Button */
 	#couch{ top:240px; left:75px;}
 	#plant{ top:180px; left:370px; }
 	#monitor{ top:335px; left:390px; }
 	#board{ top:50px; left:450px; }
-	
+
 	/* General Info Box */
-	#infobox{ 
-		position:absolute; 
-		bottom:-200px; 
-		left: 350px; 
-		height:200px; 
-		width:300px; 
-		z-index:20; 
-		margin:0 0 -100px -150px; 
-		background:#FFF; 
-		-webkit-border-radius:5px; 
-		-moz-border-radius:5px; 
-		border-radius:5px; 
+	#infobox{
+		position:absolute;
+		bottom:-200px;
+		left: 350px;
+		height:200px;
+		width:300px;
+		z-index:20;
+		margin:0 0 -100px -150px;
+		background:#FFF;
+		-webkit-border-radius:5px;
+		-moz-border-radius:5px;
+		border-radius:5px;
 	}
 	#infobox a, #infobox a:visited{ font:italic 16px Georgia, serif; color:#555; text-decoration:none; }
 	#infobox a:hover{ text-decoration:underline; }
-		
+
 		/* Close button for info box */
 		span.close{position:absolute; right:5px; top:5px;}
-	
-	/* The dimmed background when the info box is showing */	
+
+	/* The dimmed background when the info box is showing */
 	#fade_bg{ position:absolute; z-index:15; width:100%; height:100%; background:url("../../assets/imgs/dim.png"); display:none;}

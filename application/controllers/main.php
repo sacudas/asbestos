@@ -20,16 +20,16 @@ class Main extends MY_Controller {
 	 * index()
 	 */
 	public function index() {
-		
+
 		$this->render('main/index');
 	}
-	
-		
+
+
 	/**
 	 * index()
 	 */
 	public function test() {
-		
+
 		$this->load->view('main/test');
 	}
 
