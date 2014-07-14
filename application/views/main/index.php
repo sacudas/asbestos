@@ -74,7 +74,7 @@
 					<img src="<?php echo base_url("assets/imgs/basement.jpg"); ?>">
 						<div class="table-row">
 							<label>
-								Living Room
+								Basement
 							</label>
 						</div>
 					</div>
