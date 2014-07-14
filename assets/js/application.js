@@ -42,7 +42,7 @@ $(document).ready(function() {
 
 		$.ajax({
 			method : 'GET',
-			url : window.location.protocol + '//' + window.location.hostname + '/index.php/main/test',
+			url : window.location.protocol + '//' + window.location.hostname + '/belluck-and-fox/asbestos-finder/index.php/main/test',
 			returnType : 'html',
 			success : function (data) {
 				$('#myDiv').html(data);
