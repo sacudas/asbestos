@@ -5,7 +5,7 @@
 	</div>
 </div>
 
-<div class="container">
+<div class="container clearfix">
 	<div class="house-container">
 		<div class="house">
 		<a id="enter" href="javascript:void">Enter</a>

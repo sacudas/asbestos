@@ -11,6 +11,7 @@ body {
 }
 
 .house-container {
+	height: 500px;
 	position:relative;
 	width: 500px;
 	margin: 0 auto;
