@@ -58,7 +58,7 @@ $(document).ready(function() {
 	$('.back-to-interior').on('click', function() {
 		$('.interior-image').hide(function() {
 			$('.back-to-interior').hide();
-			$('.house-interior').css({'background' : 'url("../../assets/imgs/interior.png") center center no-repeat'});
+			$('.house-interior').css({'background' : 'url("assets/imgs/interior.png") center center no-repeat'});
 		});
 		$('.row').show();	
 	});
