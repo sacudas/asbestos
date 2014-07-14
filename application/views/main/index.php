@@ -72,7 +72,10 @@
 				</div>
 			</div>
 			<div id="myDiv">
+			<a class='back-to-interior' href="javascript: void;">Back</a>
+			<div class="interior-image">
 			<!--- We put the picture of the selected interior design and show the description of each detail --->
+			</div>
 			</div>
 		</div>
 	</div>

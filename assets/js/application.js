@@ -20,21 +20,23 @@ $(document).ready(function() {
 
 	// when hover over the selected image change the opacity to 1
 	$('.row img').hover(
-			function(){
-				$(this).stop().fadeTo('slow', 0.4, function(){
-					$(this).next().find('label').css({'z-index' : 2 });
-				});
-			},
-			function(){
-				$(this).stop().fadeTo('slow', 1).next().find('label').css({'z-index' : 0 });
-			}
-			);
+		function(){
+			$(this).stop().fadeTo('slow', 0.4, function(){
+				$(this).next().find('label').css({'z-index' : 2 });
+			});
+		},
+		function(){
+			$(this).stop().fadeTo('slow', 1).next().find('label').css({'z-index' : 0 });
+		}
+	);
 
 	// we have to wait until the image is clicked
 	$(".window-wrapper img").on('click', function(){
 		src = $(this).attr('src');
 		$(".house-interior").css({'background' : 'none'});
-		$(".house-interior .row").hide();
+		$(".house-interior .row").hide(function() {
+			$('.back-to-interior').show();
+		});
 
 		// let's hide the interior
 		// $(".house-interior").html($('#myDiv img').attr('src', $(this).attr('src')));
@@ -45,17 +47,21 @@ $(document).ready(function() {
 			url : window.location.protocol + '//' + window.location.hostname + '/belluck-and-fox/asbestos-finder/index.php/main/test',
 			returnType : 'html',
 			success : function (data) {
-				$('#myDiv').html(data);
-
+				$('.interior-image').html(data);
 				$('#pic-background').attr('src', src);
-				$('#myDiv').show();
+				$('.interior-image').show();
 			}
 		});
 
-
 	});
 
-
+	$('.back-to-interior').on('click', function() {
+		$('.interior-image').hide(function() {
+			$('.back-to-interior').hide();
+			$('.house-interior').css({'background' : 'url("../../assets/imgs/interior.png") center center no-repeat'});
+		});
+		$('.row').show();	
+	});
 
 });
 
