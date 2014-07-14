@@ -20,7 +20,7 @@ body {
 	position: absolute;
 	z-index: 1;
 }
-.bedroom, .bathroom, .living-room , .living-room-2, .kitchen{
+.bedroom, .bathroom, .living-room , .living-room-2, .kitchen, .basement{
 	background: #000;
 }
 
@@ -49,7 +49,7 @@ body {
 	position: absolute;
 }
 
-.bedroom, .bathroom, .kitchen, .living-room, .living-room-2 {
+.bedroom, .bathroom, .kitchen, .living-room, .living-room-2, .basement {
 	position: absolute;
 	margin: 0;
 	padding: 0;
@@ -62,7 +62,7 @@ body {
 }
 .bathroom {
 	right: 219px;
-	top: 154px;
+	top: 155px;
 	width: 162px;
 	height: 112px;
 }
@@ -87,6 +87,14 @@ body {
 	height: 110px;
 }
 
+
+.basement{
+	right: 54px;
+	top: 391px;
+	width: 119px;
+	height: 78px;
+}
+
 .info{
 	display: none;
 }
@@ -109,7 +117,7 @@ body {
 }
 
 
-.bedroom .window-wrapper img, .living-room .window-wrapper img, .kitchen .window-wrapper img, .living-room-2 .window-wrapper img, .bathroom .window-wrapper img{
+.bedroom .window-wrapper img, .living-room .window-wrapper img, .kitchen .window-wrapper img, .living-room-2 .window-wrapper img, .bathroom .window-wrapper img, .basement .window-wrapper img{
 	width: inherit;
 	height: inherit;
 	position: absolute;

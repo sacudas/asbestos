@@ -1,11 +1,10 @@
-
 <div class="jumbotron">
 	<div class="container">
 		<h1>Asbestos Finder</h1>
 		<p>The application will show the interior of the house during mouse hover</p>
 	</div>
 </div>
- 
+
 <div class="container">
 	<div class="house-container">
 		<div class="house">
@@ -63,6 +62,16 @@
 				<div class="living-room-2">
 					<div class="window-wrapper">
 					<img src="<?php echo base_url("assets/imgs/living-room-2.jpg"); ?>">
+						<div class="table-row">
+							<label>
+								Living Room
+							</label>
+						</div>
+					</div>
+				</div>
+				<div class="basement">
+					<div class="window-wrapper">
+					<img src="<?php echo base_url("assets/imgs/basement.jpg"); ?>">
 						<div class="table-row">
 							<label>
 								Living Room
