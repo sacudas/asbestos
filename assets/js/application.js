@@ -2,9 +2,12 @@ $(document).ready(function() {
 
 	$(".house").mouseenter(function() {
 		$("#enter").stop().fadeTo('slow', 1);
+
+		$('.house img').stop().fadeTo('slow', 0.4);
 	});
 	$('.house').mouseleave(function() {
 		$("#enter").stop().fadeTo('slow', .0);
+		$('.house img').stop().fadeTo('slow', 1);
 	});
 
 	$('#enter').click(function(){
@@ -60,7 +63,7 @@ $(document).ready(function() {
 			$('.back-to-interior').hide();
 			$('.house-interior').css({'background' : 'url("assets/imgs/interior.png") center center no-repeat'});
 		});
-		$('.row').show();	
+		$('.row').show();
 	});
 
 });

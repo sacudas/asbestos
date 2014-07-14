@@ -8,7 +8,7 @@
 <div class="container clearfix">
 	<div class="house-container">
 		<div class="house">
-		<a id="enter" href="javascript:void">Enter</a>
+		<a id="enter" href="javascript:void">Enter<br /><small>To select a room and find asbestos.</small></a>
 		<img src="<?php echo base_url("assets/imgs/front-of-home.jpg"); ?>">
 		</div>
 		<div class="house-interior">

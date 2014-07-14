@@ -20,6 +20,7 @@ body {
 .house{
 	position: absolute;
 	z-index: 1;
+	background: #000;
 }
 .bedroom, .bathroom, .living-room , .living-room-2, .kitchen, .basement{
 	background: #000;
@@ -104,10 +105,21 @@ body {
 	font-size: 60px;
 	position: absolute;
 	display: none;
-	top: 209px;
+	top: 201px;
 	text-decoration: none;
-	left: 178px;
+	left: 138px;
 	z-index: 10;
+	color: #fff;
+	width: 193px;
+	line-height: 25px;
+	text-align: center;
+}
+
+#enter small {
+	font-size: 22px;
+	color: #fff;
+	background: none;
+	line-height: 0;
 }
 
 .window-wrapper {
