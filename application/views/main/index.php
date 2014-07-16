@@ -15,7 +15,7 @@
 			<div class="row">
 				<div class="attic-left">
 					<div class="window-wrapper">
-						<img src="<?php echo base_url("assets/imgs/attic-left.png"); ?>">
+						<img id="attic"  src="<?php echo base_url("assets/imgs/attic-left.png"); ?>">
 						<div class="table-row">
 								<label>
 									Attic
@@ -25,7 +25,7 @@
 				</div>
 				<div class="attic-right">
 					<div class="window-wrapper">
-						<img src="<?php echo base_url("assets/imgs/attic-right.png"); ?>">
+						<img id="attic" src="<?php echo base_url("assets/imgs/attic-right.png"); ?>">
 						<div class="table-row">
 								<label>
 									Attic

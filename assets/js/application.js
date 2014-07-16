@@ -36,6 +36,13 @@ $(document).ready(function() {
 	// we have to wait until the image is clicked
 	$(".window-wrapper img").on('click', function(){
 		src = $(this).attr('src');
+		id = $(this).attr('id');
+
+		if(id == 'attic'){
+			src = src.replace(/[\-left|\-right]+\.png/g,".jpg");
+			alert(src);
+		}
+
 		$(".house-interior").css({'background' : 'none'});
 		$(".house-interior .row").hide(function() {
 			$('.back-to-interior').show();
@@ -43,7 +50,6 @@ $(document).ready(function() {
 
 		// let's hide the interior
 		// $(".house-interior").html($('#myDiv img').attr('src', $(this).attr('src')));
-
 
 		$.ajax({
 			method : 'GET',
