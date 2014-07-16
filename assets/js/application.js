@@ -40,7 +40,6 @@ $(document).ready(function() {
 
 		if(id == 'attic'){
 			src = src.replace(/[\-left|\-right]+\.png/g,".jpg");
-			alert(src);
 		}
 
 		$(".house-interior").css({'background' : 'none'});
