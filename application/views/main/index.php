@@ -14,10 +14,24 @@
 		<div class="house-interior">
 			<div class="row">
 				<div class="attic-left">
-					<img src="<?php echo base_url("assets/imgs/attic-left.png"); ?>">
+					<div class="window-wrapper">
+						<img src="<?php echo base_url("assets/imgs/attic-left.png"); ?>">
+						<div class="table-row">
+								<label>
+									Attic
+								</label>
+						</div>
+					</div>
 				</div>
 				<div class="attic-right">
-					<img src="<?php echo base_url("assets/imgs/attic-right.png"); ?>">
+					<div class="window-wrapper">
+						<img src="<?php echo base_url("assets/imgs/attic-right.png"); ?>">
+						<div class="table-row">
+								<label>
+									Attic
+								</label>
+						</div>
+					</div>
 				</div>
 				<div class="living-room">
 					<div class="window-wrapper">

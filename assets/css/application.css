@@ -47,7 +47,7 @@ body {
 }
 .attic-right{
 	top: 33px;
-	right: 12px;
+	right: 179px;
 	position: absolute;
 }
 
@@ -149,6 +149,32 @@ body {
 	position: inherit;
 	z-index: 0;
 	color: #fff;
+}
+
+.attic-left .table-row {
+	position: absolute;
+}
+
+.attic-left .window-wrapper img, .attic-right .window-wrapper img{
+	position: absolute;
+	z-index: 2;
+}
+.attic-left .table-row label {
+	position: inherit;
+	top: 72px;
+	left: 208px;
+	padding: 0;
+	margin: 0;
+	z-index: 0;
+}
+
+
+.attic-right .table-row label {
+	position: inherit;
+	top: 64px;
+	left: 22px;
+	padding: 0;
+	margin: 0;
 }
 
 #myDiv{
