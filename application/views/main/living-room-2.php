@@ -4,12 +4,12 @@
 	<!-- More Info Buttons -->
 
 	<div class="more" id="living-room-floor-tiles">
-		<a href="#"><img src="<?php echo base_url("assets/imgs/more.png"); ?>"/></a>
+		<a href="#"><img src="<?php echo base_url("assets/imgs/asbestos-magnifier-sprite.png"); ?>"/></a>
 		<span>floor tiles</span>
 	</div>
 
 	<div class="more" id="textured-ceiling">
-		<a href="#"><img src="<?php echo base_url("assets/imgs/more.png"); ?>"/></a>
+		<a href="#"><img src="<?php echo base_url("assets/imgs/asbestos-magnifier-sprite.png"); ?>"/></a>
 		<span>Asbestos Texture Ceiling</span>
 	</div>
 

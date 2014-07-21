@@ -4,7 +4,7 @@
 	<!-- More Info Buttons -->
 
 	<div class="more" id="living-room-carpet-glue">
-		<a href="#"><img src="<?php echo base_url("assets/imgs/more.png"); ?>"/></a>
+		<a href="#"><img src="<?php echo base_url("assets/imgs/asbestos-magnifier-sprite.png"); ?>"/></a>
 		<span>Carpet Glue</span>
 	</div>
 

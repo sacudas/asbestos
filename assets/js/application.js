@@ -55,7 +55,7 @@ $(document).ready(function() {
 
 		$.ajax({
 			method : 'GET',
-			url : window.location.protocol + '//' + window.location.hostname + '/belluck-and-fox/asbestos-finder/index.php/main/interior/' + file,
+			url : window.location.protocol + '//' + window.location.hostname + '/index.php/main/interior/' + file,
 			returnType : 'html',
 			success : function (data) {
 				$('.interior-image').html(data);
