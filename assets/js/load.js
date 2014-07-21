@@ -25,7 +25,7 @@ $(document).ready(function(){
 	$(".more").hover(function(){
 		$(this).stop().animate({width: '225px' }, 200).css({'z-index' : '10'}); //Change the width increase caption size
 	}, function () {
-		$(this).stop().animate({width: '50px' }, 200).css({'z-index' : '1'});
+		$(this).stop().animate({width: '50px' }, 200).css({'z-index' : '3'});
 	});
 
 	//Remove background, info box and hide all descriptions

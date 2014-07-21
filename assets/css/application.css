@@ -47,7 +47,7 @@ body {
 }
 .attic-right{
 	top: 33px;
-	right: 179px;
+	right: -18px;
 	position: absolute;
 }
 
@@ -129,6 +129,13 @@ body {
 	display: table;
 }
 
+.window-wrapper-attic {
+	position : relative;
+	height: inherit;
+	width: inherit;
+	display: table;
+}
+
 
 .bedroom .window-wrapper img, .living-room .window-wrapper img, .kitchen .window-wrapper img, .living-room-2 .window-wrapper img, .bathroom .window-wrapper img, .basement .window-wrapper img{
 	width: inherit;
@@ -188,51 +195,59 @@ a:focus, a:active{ outline:none; }
 /* Picture Styles */
 #picture{ position:relative; top:20px; width:700px; height:466px; margin:0px auto;}
 #picture #pic-background {position: absolute; z-index: 0; left: 0; top: 0;}
-	/* General More Button */
-	.more{ position:absolute; width:50px; height:50px; background:url("../../assets/imgs/dim.png"); text-align:left; overflow:hidden; }
+/* General More Button */
+.more{ position:absolute; width:50px; height:50px; text-align:left; overflow:hidden; }
 
-	.more span{ position:absolute; left:60px; width:160px; padding:15px 0 0 5px; color:#FFF; font:bold 13px Lucida Grande, Arial, sans-serif; text-shadow:#000 1px 1px 0px; top:0px;}
-	.show-more{background: url("../../assets/imgs/asbestos-magnifier-sprite.png") no-repeat 2px -4px; height: 50px; display: block; background-size: 43px 123px; }
-	.show-more:hover{background: url("../../assets/imgs/asbestos-magnifier-sprite.png") no-repeat 2px -70px; height: 50px; display: block; background-size: 43px 123px; }
-	#living-room-floor-tiles{ top: 320px; left:75px;}
-	#textured-ceiling{ top: 26px; left: 232px; }
-	#kitchen-heater-cupboard{top: 155px; left: 367px; }
-	#kitchen-refrigerator{top: 185px; left: 217px;}
-	#kitchen-floor{top: 329px; left: 115px;}
-	#bedroom-floor{top: 329px; left: 115px;}
-	#bedroom-aib-pannels{top: 55px; left: 447px;}
-	#living-room-carpet-glue{top: 311px; left: 135px;}
-	#bathroom-toilet-cistern{top: 212px; left: 376px;}
-	#bathroom-damage-texture-coating{top: 311px; left: 272px;}
-	#bathroom-hot-water-pipes{top: 311px; left: 135px;}
-	#basement-insulation{top: 45px; left: 300px;}
-	#basement-fuse-box{top: 285px; left: 140px;}
-	#basement-wall-with-toweled-loose{top: 460px; left: 89px;}
-	#basement-panelling-gas-meter{top: 350px; left: 520px;}
-	#basement-lagging-hot-water-pipes{top: 410px; left: 520px;}
-	#basement-panelling-inside-heater-cupboard{top: 470px; left: 520px;}
-	/* General Info Box */
-	#infobox{
-		position:absolute;
-		bottom:-200px;
-		left: 295px;
-		height:auto;
-		width:300px;
-		z-index:20;
-		margin:0 0 -100px -150px;
-		background:#FFF;
-		-webkit-border-radius:5px;
-		-moz-border-radius:5px;
-		border-radius:5px;
-		display: none;
-	}
-	#infobox a, #infobox a:visited{ font:italic 16px Georgia, serif; color:#555; text-decoration:none; }
-	#infobox a:hover{ text-decoration:underline; }
+.more span{ position:absolute; left:60px; width:160px; padding:15px 0 0 5px; color:#FFF; font:bold 13px Lucida Grande, Arial, sans-serif; text-shadow:#000 1px 1px 0px; top:0px;}
+.show-more{background: url("../../assets/imgs/asbestos-magnifier-sprite.png") no-repeat 2px -4px; height: 50px; display: block; background-size: 43px 123px; }
+.show-more:hover{background: url("../../assets/imgs/asbestos-magnifier-sprite.png") no-repeat 2px -70px; height: 50px; display: block; background-size: 43px 123px; }
+#living-room-floor-tiles{ top: 320px; left:75px;}
+#textured-ceiling{ top: 26px; left: 232px; }
+#kitchen-heater-cupboard{top: 155px; left: 367px; }
+#kitchen-refrigerator{top: 185px; left: 217px;}
+#kitchen-floor{top: 329px; left: 115px;}
+#bedroom-floor{top: 329px; left: 115px;}
+#bedroom-aib-pannels{top: 55px; left: 447px;}
+#living-room-carpet-glue{top: 311px; left: 135px;}
+#bathroom-toilet-cistern{top: 212px; left: 376px;}
+#bathroom-damage-texture-coating{top: 311px; left: 272px;}
+#bathroom-hot-water-pipes{top: 311px; left: 135px;}
+#basement-insulation{top: 45px; left: 300px;}
+#basement-fuse-box{top: 285px; left: 140px;}
+#basement-wall-with-toweled-loose{top: 460px; left: 89px;}
+#basement-panelling-gas-meter{top: 350px; left: 520px;}
+#basement-lagging-hot-water-pipes{top: 410px; left: 520px;}
+#basement-panelling-inside-heater-cupboard{top: 470px; left: 520px;}
 
-		/* Close button for info box */
-		span.close{position:absolute; right:5px; top:5px;}
+/* house exterior button */
+#asbestos-cement{top: 80px; left: 187px; z-index: 10;}
+#asbestos-cement-drainage-pipe{top: 120px; left: -16px; z-index: 10;}
+#asbestos-cement-external-building-pannel{top: 220px; left: -16px; z-index: 10;}
+#sidewalk-cement{top: 420px; left: 100px; z-index: 10;}
+#old-toys{top: 52px; left: 424px; z-index: 10;}
+#christmas-decoration{top: 100px; left: 480px; z-index: 10;}
+/* General Info Box */
+#infobox{
+	position:absolute;
+	bottom:-200px;
+	left: 295px;
+	height:auto;
+	width:300px;
+	z-index:20;
+	margin:0 0 -100px -150px;
+	background:#FFF;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	display: none;
+}
+#infobox a, #infobox a:visited{ font:italic 16px Georgia, serif; color:#555; text-decoration:none; }
+#infobox a:hover{ text-decoration:underline; }
 
-	/* The dimmed background when the info box is showing */
-	#fade_bg{ position:absolute; z-index:15; width:100%; height:100%; background:url("../../assets/imgs/dim.png"); display:none;}
-	.back-to-interior{display: none; float : right;}
+/* Close button for info box */
+span.close{position:absolute; right:5px; top:5px;}
+
+/* The dimmed background when the info box is showing */
+#fade_bg{ position:absolute; z-index:15; width:100%; height:100%; background:url("../../assets/imgs/dim.png"); display:none;}
+.back-to-interior{display: none; float : right;}
 

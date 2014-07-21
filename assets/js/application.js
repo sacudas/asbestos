@@ -19,10 +19,10 @@ $(document).ready(function() {
 	//opacity = 1 - completely opaque
 	//opacity = 0 - invisible
 
-	$('.row img').css('opacity', 1);
+	$('.window-wrapper img').css('opacity', 1);
 
 	// when hover over the selected image change the opacity to 1
-	$('.row img').hover(
+	$('.window-wrapper img').hover(
 		function(){
 			$(this).stop().fadeTo('slow', 0.4, function(){
 				$(this).next().find('label').css({'z-index' : 2 });
