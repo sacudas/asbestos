@@ -13,33 +13,33 @@
 		</div>
 		<div class="house-interior">
 			<div class="row">
-				<div class="more" id="asbestos-cement">
+				<div class="more more-tmp" id="asbestos-cement">
 					<a href="#" class='show-more'></a>
 					<span>Asbestos Cement</span>
 				</div>
-				<div class="more" id="asbestos-cement-drainage-pipe">
+				<div class="more more-tmp" id="asbestos-cement-drainage-pipe">
 					<a href="#" class='show-more'></a>
 					<span>Asbestos Cement Drainage Pipe</span>
 				</div>
-				<div class="more" id="asbestos-cement-external-building-pannel">
+				<div class="more more-tmp" id="asbestos-cement-external-building-pannel">
 					<a href="#" class='show-more'></a>
 					<span>Asbestos Cement External Building Pannel</span>
 				</div>
-				<div class="more" id="sidewalk-cement">
+				<div class="more more-tmp" id="sidewalk-cement">
 					<a href="#" class='show-more'></a>
 					<span>Sidewalk Cement</span>
 				</div>
-				<div class="more" id="old-toys">
+				<div class="more more-tmp" id="old-toys">
 					<a href="#" class='show-more'></a>
 					<span>Old Toys</span>
 				</div>
-				<div class="more" id="christmas-decoration">
+				<div class="more more-tmp" id="christmas-decoration">
 					<a href="#" class='show-more'></a>
 					<span>Christmas Decoration</span>
 				</div>
 
 				<!-- Info Boxes -->
-				<div id="infobox">
+				<div class="infobox-tmp">
 					<span class="close"><a href="#"><img src="<?php echo base_url("assets/imgs/close.png"); ?>"/></a></span>
 					<br/>
 
