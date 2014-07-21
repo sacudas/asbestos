@@ -193,6 +193,7 @@ a:focus, a:active{ outline:none; }
 
 	.more span{ position:absolute; left:60px; width:160px; padding:15px 0 0 5px; color:#FFF; font:bold 13px Lucida Grande, Arial, sans-serif; text-shadow:#000 1px 1px 0px; }
 	.show-more{background: url("../../assets/imgs/asbestos-magnifier-sprite.png") no-repeat 2px -4px; height: 50px; border: 1px solid; display: block; background-size: 43px 123px; }
+	.show-more:hover{background: url("../../assets/imgs/asbestos-magnifier-sprite.png") no-repeat 2px 70px; height: 50px; border: 1px solid; display: block; background-size: 43px 123px; }
 	#living-room-floor-tiles{ top: 320px; left:75px;}
 	#textured-ceiling{ top: 26px; left: 232px; }
 	#kitchen-heater-cupboard{top: 155px; left: 367px; }
