@@ -4,17 +4,17 @@
 	<!-- More Info Buttons -->
 
 	<div class="more" id="bathroom-toilet-cistern">
-		<a href="#"><img src="<?php echo base_url("assets/imgs/asbestos-magnifier-sprite.png"); ?>"/></a>
+		<a href="#" class='show-more'></a>
 		<span>Toilet Cistern</span>
 	</div>
 
 	<div class="more" id="bathroom-damage-texture-coating">
-		<a href="#"><img src="<?php echo base_url("assets/imgs/asbestos-magnifier-sprite.png"); ?>"/></a>
+		<a href="#" class='show-more'></a>
 		<span>Damage Texture Coating</span>
 	</div>
 
 	<div class="more" id="bathroom-hot-water-pipes">
-		<a href="#"><img src="<?php echo base_url("assets/imgs/asbestos-magnifier-sprite.png"); ?>"/></a>
+		<a href="#" class='show-more'></a>
 		<span>Asbestos Lagging Hot Water Pipes</span>
 	</div>
 

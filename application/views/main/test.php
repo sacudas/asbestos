@@ -4,22 +4,22 @@
 	<!-- More Info Buttons -->
 
 	<div class="more" id="couch">
-		<a href="#"><img src="<?php echo base_url("assets/imgs/asbestos-magnifier-sprite.png"); ?>"/></a>
+		<a href="#" class='show-more'></a>
 		<span>IKEA Klippan Couch</span>
 	</div>
 
 	<div class="more" id="plant">
-		<a href="#"><img src="<?php echo base_url("assets/imgs/asbestos-magnifier-sprite.png"); ?>"/></a>
+		<a href="#" class='show-more'></a>
 		<span>Cornelius, Office Plant</span>
 	</div>
 
 	<div class="more" id="monitor">
-		<a href="#"><img src="<?php echo base_url("assets/imgs/asbestos-magnifier-sprite.png"); ?>"/></a>
+		<a href="#" class='show-more'></a>
 		<span>Samsung 305t Monitor</span>
 	</div>
 
 	<div class="more" id="board">
-		<a href="#"><img src="<?php echo base_url("assets/imgs/asbestos-magnifier-sprite.png"); ?>"/></a>
+		<a href="#" class='show-more'></a>
 		<span>Custom White Board</span>
 	</div>
 

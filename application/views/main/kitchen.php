@@ -4,17 +4,17 @@
 	<!-- More Info Buttons -->
 
 	<div class="more" id="kitchen-refrigerator">
-		<a href="#"><img src="<?php echo base_url("assets/imgs/asbestos-magnifier-sprite.png"); ?>"/></a>
+		<a href="#" class='show-more'></a>
 		<span>refrigerator</span>
 	</div>
 
 	<div class="more" id="kitchen-heater-cupboard">
-		<a href="#"><img src="<?php echo base_url("assets/imgs/asbestos-magnifier-sprite.png"); ?>"/></a>
+		<a href="#" class='show-more'></a>
 		<span>Heater Cupboard</span>
 	</div>
 
 	<div class="more" id="kitchen-floor">
-		<a href="#"><img src="<?php echo base_url("assets/imgs/asbestos-magnifier-sprite.png"); ?>"/></a>
+		<a href="#" class='show-more'></a>
 		<span>floor</span>
 	</div>
 

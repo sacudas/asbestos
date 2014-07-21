@@ -4,12 +4,12 @@
 	<!-- More Info Buttons -->
 
 	<div class="more" id="bedroom-aib-pannels">
-		<a href="#"><img src="<?php echo base_url("assets/imgs/asbestos-magnifier-sprite.png"); ?>"/></a>
+		<a href="#" class='show-more'></a>
 		<span>AIB Pannels</span>
 	</div>
 
 	<div class="more" id="bedroom-floor">
-		<a href="#"><img src="<?php echo base_url("assets/imgs/asbestos-magnifier-sprite.png"); ?>"/></a>
+		<a href="#" class='show-more'></a>
 		<span>Floor Tiles</span>
 	</div>
 

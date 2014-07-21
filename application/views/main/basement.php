@@ -4,32 +4,32 @@
 	<!-- More Info Buttons -->
 
 	<div class="more" id="basement-insulation">
-		<a href="#"><img src="<?php echo base_url("assets/imgs/asbestos-magnifier-sprite.png"); ?>"/></a>
+		<a href="#" class='show-more'></a>
 		<span>Insulation</span>
 	</div>
 
 	<div class="more" id="basement-fuse-box">
-		<a href="#"><img src="<?php echo base_url("assets/imgs/asbestos-magnifier-sprite.png"); ?>"/></a>
+		<a href="#" class='show-more'></a>
 		<span>Fuse Box</span>
 	</div>
 
 	<div class="more" id="basement-wall-with-toweled-loose">
-		<a href="#"><img src="<?php echo base_url("assets/imgs/asbestos-magnifier-sprite.png"); ?>"/></a>
+		<a href="#" class='show-more'></a>
 		<span>Wall with Toweled Loose Asbestos</span>
 	</div>
 
 	<div class="more" id="basement-panelling-gas-meter">
-		<a href="#"><img src="<?php echo base_url("assets/imgs/asbestos-magnifier-sprite.png"); ?>"/></a>
+		<a href="#" class='show-more'></a>
 		<span>Asbestos panelling around gas meter</span>
 	</div>
 
 	<div class="more" id="basement-lagging-hot-water-pipes">
-		<a href="#"><img src="<?php echo base_url("assets/imgs/asbestos-magnifier-sprite.png"); ?>"/></a>
+		<a href="#" class='show-more'></a>
 		<span>Damage asbestos lagging on hot water pipes</span>
 	</div>
 
 	<div class="more" id="basement-panelling-inside-heater-cupboard">
-		<a href="#"><img src="<?php echo base_url("assets/imgs/asbestos-magnifier-sprite.png"); ?>"/></a>
+		<a href="#" class='show-more'></a>
 		<span>Asbestos panelling inside heater cupboard</span>
 	</div>
 
