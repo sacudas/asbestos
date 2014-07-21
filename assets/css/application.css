@@ -215,7 +215,7 @@ a:focus, a:active{ outline:none; }
 	#infobox{
 		position:absolute;
 		bottom:-200px;
-		left: 350px;
+		left: 295px;
 		height:auto;
 		width:300px;
 		z-index:20;

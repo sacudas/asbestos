@@ -5,7 +5,7 @@
 
 	<div class="more" id="kitchen-refrigerator">
 		<a href="#" class='show-more'></a>
-		<span>refrigerator</span>
+		<span>Refrigerator</span>
 	</div>
 
 	<div class="more" id="kitchen-heater-cupboard">
@@ -29,8 +29,8 @@
 		</div>
 
 		<div id="kitchen-refrigerator_info">
-			<img src="<?php echo base_url("assets/imgs/no-image-available.jpg"); ?>"/><br/>
-			<a href="#">Office Plants</a>
+			<img src="<?php echo base_url("assets/imgs/refrigerator.jpg"); ?>"/><br/>
+			<a href="#">Refrigerator</a>
 		</div>
 
 		<div id="kitchen-floor_info">

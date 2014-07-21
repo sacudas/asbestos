@@ -25,7 +25,7 @@
 		</div>
 
 		<div id="textured-ceiling_info">
-			<img src="<?php echo base_url("assets/imgs/Suspended-AIB-ceiling-tiles-in-a-corridor.jpg"); ?>"/><br/>
+			<img src="<?php echo base_url("assets/imgs/asbestos-textured-ceiling.jpg"); ?>"/><br/>
 			<a href="#">Asbestos Textured Ceiling</a>
 		</div>
 

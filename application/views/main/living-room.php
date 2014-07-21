@@ -14,7 +14,7 @@
 		<br/>
 
 		<div id="living-room-carpet-glue_info">
-			<img src="<?php echo base_url("assets/imgs/no-image-available.jpg"); ?>"/><br/>
+			<img src="<?php echo base_url("assets/imgs/carpet-glue.jpg"); ?>"/><br/>
 			<a href="#">Carpet Glue</a>
 		</div>
 	</div>

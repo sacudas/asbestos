@@ -19,7 +19,7 @@
 		<br/>
 
 		<div id="bedroom-aib-pannels_info">
-			<img src="<?php echo base_url("assets/imgs/no-image-available.jpg"); ?>"/><br/>
+			<img width="270" src="<?php echo base_url("assets/imgs/AIB-pannels.jpg"); ?>"/><br/>
 			<a href="#">AIB Pannels</a>
 		</div>
 

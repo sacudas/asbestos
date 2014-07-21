@@ -44,7 +44,7 @@
 		</div>
 
 		<div id="basement-fuse-box_info">
-			<img width='284'no-image-available.jpg src="<?php echo base_url("assets/imgs/Asbestos-containing-fuse-board.png"); ?>"/><br/>
+			<img width='284' src="<?php echo base_url("assets/imgs/Asbestos-containing-fuse-board.png"); ?>"/><br/>
 			<a href="#">Fuse Box</a>
 		</div>
 

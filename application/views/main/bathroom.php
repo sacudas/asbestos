@@ -24,12 +24,12 @@
 		<br/>
 
 		<div id="bathroom-toilet-cistern_info">
-			<img src="<?php echo base_url("assets/imgs/no-image-available.jpg"); ?>"/><br/>
+			<img src="<?php echo base_url("assets/imgs/toilet-cistern.jpg"); ?>"/><br/>
 			<a href="#">Toilet Cistern</a>
 		</div>
 
 		<div id="bathroom-damage-texture-coating_info">
-			<img src="<?php echo base_url("assets/imgs/no-image-available.jpg"); ?>"/><br/>
+			<img src="<?php echo base_url("assets/imgs/damage-texture-coating.jpg"); ?>"/><br/>
 			<a href="#">Damage Texture Coating</a>
 		</div>
 
