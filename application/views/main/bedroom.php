@@ -5,12 +5,12 @@
 
 	<div class="more" id="bedroom-aib-pannels">
 		<a href="#"><img src="<?php echo base_url("assets/imgs/more.png"); ?>"/></a>
-		<span>AIB pannels</span>
+		<span>AIB Pannels</span>
 	</div>
 
 	<div class="more" id="bedroom-floor">
 		<a href="#"><img src="<?php echo base_url("assets/imgs/more.png"); ?>"/></a>
-		<span>floor tiles</span>
+		<span>Floor Tiles</span>
 	</div>
 
 	<!-- Info Boxes -->
@@ -20,11 +20,12 @@
 
 		<div id="bedroom-aib-pannels_info">
 			<img src="<?php echo base_url("assets/imgs/no-image-available.jpg"); ?>"/><br/>
-			<a href="#">Office Plants</a>
+			<a href="#">AIB Pannels</a>
 		</div>
 
 		<div id="bedroom-floor_info">
 			<img src="<?php echo base_url("assets/imgs/Asbestos-containing-floor-tiles1.jpg"); ?>"/><br/>
+			<a href="#">Floor Tiles</a>
 		</div>
 
 	</div>
