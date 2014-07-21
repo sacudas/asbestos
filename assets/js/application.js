@@ -42,17 +42,20 @@ $(document).ready(function() {
 			src = src.replace(/[\-left|\-right]+\.png/g,".jpg");
 		}
 
+		// find the name of the image from the last index of the url
+		image_name  = src.substr(src.lastIndexOf('/') + 1);
+
+		// strip the work jpg and that's the name of our file
+		file = image_name.replace(/([\-\w\W\d]+)\.[jpg]+/g,"$1");
+
 		$(".house-interior").css({'background' : 'none'});
 		$(".house-interior .row").hide(function() {
 			$('.back-to-interior').show();
 		});
 
-		// let's hide the interior
-		// $(".house-interior").html($('#myDiv img').attr('src', $(this).attr('src')));
-
 		$.ajax({
 			method : 'GET',
-			url : window.location.protocol + '//' + window.location.hostname + '/belluck-and-fox/asbestos-finder/index.php/main/test',
+			url : window.location.protocol + '//' + window.location.hostname + '/belluck-and-fox/asbestos-finder/index.php/main/interior/' + file,
 			returnType : 'html',
 			success : function (data) {
 				$('.interior-image').html(data);

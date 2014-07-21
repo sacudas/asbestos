@@ -186,25 +186,36 @@ body {
 a:focus, a:active{ outline:none; }
 
 /* Picture Styles */
-#picture{ position:relative; top:20px; width:700px; height:466px; margin:0px auto; overflow:hidden; }
+#picture{ position:relative; top:20px; width:700px; height:466px; margin:0px auto;}
 #picture #pic-background {position: absolute; z-index: 0; left: 0; top: 0;}
 	/* General More Button */
 	.more{ position:absolute; width:50px; height:50px; background:url("../../assets/imgs/dim.png"); text-align:left; overflow:hidden; }
 
 	.more span{ position:absolute; left:60px; width:160px; padding:15px 0 0 5px; color:#FFF; font:bold 13px Lucida Grande, Arial, sans-serif; text-shadow:#000 1px 1px 0px; }
 
-	/* Item Specific More Button */
-	#couch{ top:240px; left:75px;}
-	#plant{ top:180px; left:370px; }
-	#monitor{ top:335px; left:390px; }
-	#board{ top:50px; left:450px; }
-
+	#living-room-floor-tiles{ top: 320px; left:75px;}
+	#textured-ceiling{ top: 26px; left: 232px; }
+	#kitchen-heater-cupboard{top: 155px; left: 367px; }
+	#kitchen-refrigerator{top: 185px; left: 217px;}
+	#kitchen-floor{top: 329px; left: 115px;}
+	#bedroom-floor{top: 329px; left: 115px;}
+	#bedroom-aib-pannels{top: 55px; left: 447px;}
+	#living-room-carpet-glue{top: 311px; left: 135px;}
+	#bathroom-toilet-cistern{top: 212px; left: 376px;}
+	#bathroom-damage-texture-coating{top: 311px; left: 272px;}
+	#bathroom-hot-water-pipes{top: 311px; left: 135px;}
+	#basement-insulation{top: 45px; left: 300px;}
+	#basement-fuse-box{top: 285px; left: 140px;}
+	#basement-wall-with-toweled-loose{top: 460px; left: 89px;}
+	#basement-panelling-gas-meter{top: 350px; left: 520px;}
+	#basement-lagging-hot-water-pipes{top: 410px; left: 520px;}
+	#basement-panelling-inside-heater-cupboard{top: 470px; left: 520px;}
 	/* General Info Box */
 	#infobox{
 		position:absolute;
 		bottom:-200px;
 		left: 350px;
-		height:200px;
+		height:auto;
 		width:300px;
 		z-index:20;
 		margin:0 0 -100px -150px;
@@ -212,6 +223,7 @@ a:focus, a:active{ outline:none; }
 		-webkit-border-radius:5px;
 		-moz-border-radius:5px;
 		border-radius:5px;
+		display: none;
 	}
 	#infobox a, #infobox a:visited{ font:italic 16px Georgia, serif; color:#555; text-decoration:none; }
 	#infobox a:hover{ text-decoration:underline; }

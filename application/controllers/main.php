@@ -26,11 +26,13 @@ class Main extends MY_Controller {
 
 
 	/**
-	 * index()
+	 * interior()
+	 *
+	 * @param mixed $
 	 */
-	public function test() {
+	public function interior($file_name = '') {
 
-		$this->load->view('main/test');
+		$this->load->view('main/' . $file_name);
 	}
 
 	/**
