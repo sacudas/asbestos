@@ -11,11 +11,12 @@ $(document).ready(function(){
 	$(".more a").on('click', function(){
 		var temp_this = this;
 		$('#infobox').show(function(){
-			$("#infobox").animate({bottom: '-200px' }, 300, function() {
+			$("#infobox").animate({bottom: '0px' }, 300, function() {
 				$("#infobox > div").hide();
 				$('#' + $(temp_this).parent().attr('id') + '_info').show();
-				$("#infobox").animate({bottom: '233px' }, 300);
+				$("#infobox").animate({bottom: '100px' }, 300);
 				$("#fade_bg").fadeIn();
+				$('.close').show();
 			});
 		});
 		return false;
@@ -30,7 +31,8 @@ $(document).ready(function(){
 
 	//Remove background, info box and hide all descriptions
 	$("#fade_bg, .close").click(function(){
-		$("#infobox").animate({bottom: '-200px' }, 300, function() {
+		$('.close').show();
+		$("#infobox").animate({bottom: '0px' }, 300, function() {
 			$('#infobox').hide(function(){
 				$("#infobox > div").hide();
 			});

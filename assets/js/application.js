@@ -92,11 +92,12 @@ $(document).ready(function() {
 	$(".more-tmp a").on('click', function(){
 		var temp_this = this;
 		$('.infobox-tmp').show(function(){
-			$(".infobox-tmp").animate({bottom: '-200px' }, 300, function() {
+			$(".infobox-tmp").animate({bottom: '0px' }, 300, function() {
 				$(".infobox-tmp > div").hide();
 				$('#' + $(temp_this).parent().attr('id') + '_info').show();
-				$(".infobox-tmp").animate({bottom: '233px' }, 300);
+				$(".infobox-tmp").animate({bottom: '100px' }, 300);
 				$("#fade_bg").fadeIn();
+				$('.close').show();
 			});
 		});
 		return false;
@@ -111,7 +112,8 @@ $(document).ready(function() {
 
 	//Remove background, info box and hide all descriptions
 	$("#fade_bg, .close").click(function(){
-		$(".infobox-tmp").animate({bottom: '-200px' }, 300, function() {
+		$('.close').hide();
+		$(".infobox-tmp").animate({bottom: '0px' }, 300, function() {
 			$('.infobox-tmp').hide(function(){
 				$(".infobox-tmp > div").hide();
 			});

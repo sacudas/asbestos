@@ -69,7 +69,7 @@
 					</div>
 
 					<div id="christmas-decoration_info">
-						<img width="270" src="<?php echo base_url("assets/imgs/christmas-decoration.png"); ?>"/><br/>
+						<img width="270" src="<?php echo base_url("assets/imgs/small-evergreen-in-snow.jpg"); ?>"/><br/>
 						<p>Fake snow is known to contain asbestos fibers.</p>
 					</div>
 
