@@ -38,6 +38,11 @@ body {
 	background: url("../../assets/imgs/interior.png") no-repeat center center;
 }
 
+.house-interior p {
+	padding: 5px 15px 0 15px;
+	text-align:left;
+}
+
 .house img {
 	width: 500px;
 }

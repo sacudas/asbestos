@@ -14,8 +14,8 @@
 		<br/>
 
 		<div id="living-room-carpet-glue_info">
-			<img src="<?php echo base_url("assets/imgs/carpet-glue.jpg"); ?>"/><br/>
-			<a href="#">Carpet Glue</a>
+			<img width="270" src="<?php echo base_url("assets/imgs/carpet-glue.jpg"); ?>"/><br/>
+			<p>From the 1900s to the 1980s some adhesives might have contained asbestos. The adhesives were used to bond carpet, flooring and ceiling tiles.</p>
 		</div>
 	</div>
 </div>

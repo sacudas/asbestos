@@ -5,7 +5,7 @@
 
 	<div class="more" id="living-room-floor-tiles">
 		<a href="#" class='show-more'></a>
-		<span>floor tiles</span>
+		<span>Floor tiles</span>
 	</div>
 
 	<div class="more" id="textured-ceiling">
@@ -19,14 +19,13 @@
 		<br/>
 
 		<div id="living-room-floor-tiles_info">
-			<img src="<?php echo base_url("assets/imgs/Asbestos-containing-floor-tiles1.jpg"); ?>"/><br/>
-			<a href="#">floor tiles</a>
-			<span>floor tiles</span>
+			<img width="270" src="<?php echo base_url("assets/imgs/Asbestos-containing-floor-tiles2.jpg"); ?>"/><br/>
+			<p>Floor and Vinyl tiles used in the early twentieth century contained asbestos fibers.</p>
 		</div>
 
 		<div id="textured-ceiling_info">
 			<img src="<?php echo base_url("assets/imgs/asbestos-textured-ceiling.jpg"); ?>"/><br/>
-			<a href="#">Asbestos Textured Ceiling</a>
+			<p>Texture coating done from the 1920s to the 1980s might contain asbestos.</p>
 		</div>
 
 	</div>

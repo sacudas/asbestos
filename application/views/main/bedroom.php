@@ -20,12 +20,12 @@
 
 		<div id="bedroom-aib-pannels_info">
 			<img width="270" src="<?php echo base_url("assets/imgs/AIB-pannels.jpg"); ?>"/><br/>
-			<a href="#">AIB Pannels</a>
+			<p>Asbestos insulation board panels were used in walls, ceilings and doors.</p>
 		</div>
 
 		<div id="bedroom-floor_info">
 			<img src="<?php echo base_url("assets/imgs/Asbestos-containing-floor-tiles1.jpg"); ?>"/><br/>
-			<a href="#">Floor Tiles</a>
+			<p>Floor and Vinyl tiles used in the early twentieth century contained asbestos fibers.Floor Tiles</p>
 		</div>
 
 	</div>

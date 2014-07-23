@@ -25,18 +25,18 @@
 
 		<div id="bathroom-toilet-cistern_info">
 			<img src="<?php echo base_url("assets/imgs/toilet-cistern.jpg"); ?>"/><br/>
-			<a href="#">Toilet Cistern</a>
+			<p>Plastic toilet cisterns and furniture often had small amount of asbestos.</p>
 		</div>
 
 		<div id="bathroom-damage-texture-coating_info">
-			<img src="<?php echo base_url("assets/imgs/damage-texture-coating.jpg"); ?>"/><br/>
-			<a href="#">Damage Texture Coating</a>
+			<img width="270" src="<?php echo base_url("assets/imgs/damage-texture-coating.jpg"); ?>"/><br/>
+			<p>Using asbestos in textured coatings was quite popular from the 1920s to the 1980s.</p>
 		</div>
 
 		<div id="bathroom-hot-water-pipes_info">
 			<img src="<?php echo base_url("assets/imgs/Damaged-asbestos-lagging-on-hot-water-pipes.jpg"); ?>"/><br/>
-			<a href="#">Floor</a>
-			<a href="#">Asbestos Lagging Hot Water Pipes</a>
+			<p>Floor</p>
+			<p>Loose form of asbestos fibers may be found in hot water systems and hot water pipe lagging.</p>
 		</div>
 
 	</div>

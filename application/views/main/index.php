@@ -15,7 +15,7 @@
 			<div class="row">
 				<div class="more more-tmp" id="asbestos-cement">
 					<a href="#" class='show-more'></a>
-					<span>Asbestos Cement</span>
+					<span>Asbestos Ceiling</span>
 				</div>
 				<div class="more more-tmp" id="asbestos-cement-drainage-pipe">
 					<a href="#" class='show-more'></a>
@@ -35,7 +35,7 @@
 				</div>
 				<div class="more more-tmp" id="christmas-decoration">
 					<a href="#" class='show-more'></a>
-					<span>Christmas Decoration</span>
+					<span>Christmas Decorations</span>
 				</div>
 
 				<!-- Info Boxes -->
@@ -45,32 +45,32 @@
 
 					<div id="asbestos-cement_info">
 						<img src="<?php echo base_url("assets/imgs/Asbestos-cement-roof.jpg"); ?>"/><br/>
-						<a href="#">Asbestos Cement</a>
+						<p>cement roofing and siding shingles contain asbestos cement. They are usually covered in mosses as they've been there for many years.</p>
 					</div>
 
 					<div id="asbestos-cement-drainage-pipe_info">
 						<img src="<?php echo base_url("assets/imgs/Asbestos-cement-drainage-pipe.jpg"); ?>"/><br/>
-						<a href="#">Asbestos Cement Drainage Pipe</a>
+						<p>old cement pipes and gutters were made with a mixture of cement and asbestos.</p>
 					</div>
 
 					<div id="asbestos-cement-external-building-pannel_info">
 						<img src="<?php echo base_url("assets/imgs/Asbestos-cement-external-building-panel.jpg"); ?>"/><br/>
-						<a href="#">Abestos Cement External Building Pannel</a>
+						<p>Asbestos cement means a material which is a  mixture of cement and a type of asbestos. If visual identification is inconclusive, analysis will be needed to establish the asbestos type.</p>
 					</div>
 
 					<div id="sidewalk-cement_info">
 						<img width="270" src="<?php echo base_url("assets/imgs/sidewalk-cement.jpg"); ?>"/><br/>
-						<a href="#">Floor</a>
+						<p>Asbestos cement means a material which is a mixture of cement and a type of asbestos. If visual identification is inconclusive, analysis will be needed to establish the asbestos type.</p>
 					</div>
 
 					<div id="old-toys_info">
 						<img width="270" src="<?php echo base_url("assets/imgs/old-toys.png"); ?>"/><br/>
-						<a href="#">Old Toys</a>
+						<p>Old toys might contain asbestos fibers.</p>
 					</div>
 
 					<div id="christmas-decoration_info">
 						<img width="270" src="<?php echo base_url("assets/imgs/christmas-decoration.png"); ?>"/><br/>
-						<a href="#">Christmas Decoration</a>
+						<p>Fake snow is known to contain asbestos fibers.</p>
 					</div>
 
 				</div>

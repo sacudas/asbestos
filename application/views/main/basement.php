@@ -40,32 +40,32 @@
 
 		<div id="basement-insulation_info">
 			<img src="<?php echo base_url("assets/imgs/Asbestos-insulating-board.png"); ?>"/><br/>
-			<a href="#">Insulation</a>
+			<p>Houses build between the 1930s and 1950s might contain asbestos insulation.</p>
 		</div>
 
 		<div id="basement-fuse-box_info">
 			<img width='284' src="<?php echo base_url("assets/imgs/Asbestos-containing-fuse-board.png"); ?>"/><br/>
-			<a href="#">Fuse Box</a>
+			<p></p>
 		</div>
 
 		<div id="basement-wall-with-toweled-loose_info">
 			<img src="<?php echo base_url("assets/imgs/Wall-with-towelled-loose-asbestos.jpg"); ?>"/><br/>
-			<a href="#">Wall with Toweled Loose Asbestos</a>
+			<p>Walls and floors around wood burning stoves may be protected with asbestos paper, millboard, or cement sheets.</p>
 		</div>
 
 		<div id="basement-panelling-gas-meter_info">
 			<img src="<?php echo base_url("assets/imgs/Asbestos-panelling-around-gas-meter.jpg"); ?>"/><br/>
-			<a href="#">Asbestos panelling around gas meter</a>
+			<p>Asbestos panelling around gas meter</p>
 		</div>
 
 		<div id="basement-lagging-hot-water-pipes_info">
 			<img src="<?php echo base_url("assets/imgs/Damaged-asbestos-lagging-on-hot-water-pipes.jpg"); ?>"/><br/>
-			<a href="#">Damage asbestos lagging on hot water pipes</a>
+			<p>hot water and steam pipes in older houses with an asbestos material or covered with an asbestos blanket or tape.</p>
 		</div>
 
 		<div id="basement-panelling-inside-heater-cupboard_info">
 			<img src="<?php echo base_url("assets/imgs/Asbestos-panelling-inside-heater-cupboard.jpg"); ?>"/><br/>
-			<a href="#">Asbestos panelling inside heater cupboard</a>
+			<p></p>
 		</div>
 	</div>
 
