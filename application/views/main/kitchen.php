@@ -25,7 +25,7 @@
 
 		<div id="kitchen-refrigerator_info">
 			<img width="270" src="<?php echo base_url("assets/imgs/refrigerator.jpg"); ?>"/><br/>
-			<p>Some old refrigerators contained asbestos sheets.</p>
+			<p>Some old refrigerators contained asbestos sheets for insulation inside it's walls.</p>
 		</div>
 
 	</div>

@@ -5,7 +5,7 @@
 
 	<div class="more" id="bedroom-aib-pannels">
 		<a href="#" class='show-more'></a>
-		<span>AIB Pannels</span>
+		<span>AIB Panels</span>
 	</div>
 
 	<div class="more" id="bedroom-floor">

@@ -15,7 +15,7 @@
 
 	<div class="more" id="basement-wall-with-toweled-loose">
 		<a href="#" class='show-more'></a>
-		<span>Wall with Toweled Loose Asbestos</span>
+		<span>Wall with Trowelled Loose Asbestos</span>
 	</div>
 
 	<div class="more" id="basement-panelling-gas-meter">
@@ -45,7 +45,7 @@
 
 		<div id="basement-fuse-box_info">
 			<img width='284' src="<?php echo base_url("assets/imgs/Asbestos-containing-fuse-board.png"); ?>"/><br/>
-			<p></p>
+			<p>Old style fuse­boxes contain asbestos inside the fuse assemblies</p>
 		</div>
 
 		<div id="basement-wall-with-toweled-loose_info">
@@ -60,12 +60,12 @@
 
 		<div id="basement-lagging-hot-water-pipes_info">
 			<img src="<?php echo base_url("assets/imgs/Damaged-asbestos-lagging-on-hot-water-pipes.jpg"); ?>"/><br/>
-			<p>hot water and steam pipes in older houses with an asbestos material or covered with an asbestos blanket or tape.</p>
+			<p>Hot water and steam pipes in older houses with an asbestos material or covered with an asbestos blanket or tape.</p>
 		</div>
 
 		<div id="basement-panelling-inside-heater-cupboard_info">
 			<img src="<?php echo base_url("assets/imgs/Asbestos-panelling-inside-heater-cupboard.jpg"); ?>"/><br/>
-			<p></p>
+			<p>Heater cupboards usually used asbestos insulation boards (AIB) panels</p>
 		</div>
 	</div>
 

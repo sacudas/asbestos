@@ -35,7 +35,6 @@
 
 		<div id="bathroom-hot-water-pipes_info">
 			<img src="<?php echo base_url("assets/imgs/Damaged-asbestos-lagging-on-hot-water-pipes.jpg"); ?>"/><br/>
-			<p>Floor</p>
 			<p>Loose form of asbestos fibers may be found in hot water systems and hot water pipe lagging.</p>
 		</div>
 

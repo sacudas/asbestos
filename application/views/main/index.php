@@ -45,12 +45,12 @@
 
 					<div id="asbestos-cement_info">
 						<img src="<?php echo base_url("assets/imgs/Asbestos-cement-roof.jpg"); ?>"/><br/>
-						<p>cement roofing and siding shingles contain asbestos cement. They are usually covered in mosses as they've been there for many years.</p>
+						<p>Cement roofing and siding shingles contain asbestos cement. They are usually covered in mosses as they've been there for many years.</p>
 					</div>
 
 					<div id="asbestos-cement-drainage-pipe_info">
 						<img src="<?php echo base_url("assets/imgs/Asbestos-cement-drainage-pipe.jpg"); ?>"/><br/>
-						<p>old cement pipes and gutters were made with a mixture of cement and asbestos.</p>
+						<p>Old cement pipes and gutters were made with a mixture of cement and asbestos.</p>
 					</div>
 
 					<div id="asbestos-cement-external-building-pannel_info">
@@ -139,7 +139,7 @@
 					<img src="<?php echo base_url("assets/imgs/living-room-2.jpg"); ?>">
 						<div class="table-row">
 							<label>
-								Living Room
+								Family Room
 							</label>
 						</div>
 					</div>
